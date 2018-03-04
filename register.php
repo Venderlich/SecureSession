@@ -55,4 +55,6 @@ include_once 'includes/functions.php';
         </form>
         <p>Retournez à la page d’<a href="index.php">inscription</a>.</p>
     </body>
+<script src="js/form.js"></script>
+<script src="js/sha512.js"></script>
 </html>
