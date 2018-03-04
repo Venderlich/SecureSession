@@ -20,6 +20,7 @@ sec_session_start();
         pages puissent connaître le type d’utilisateur autorisé à accéder à la page.
     </p>
     <p>Revenir à la <a href="index.php">page de connexion</a></p>
+    <input TYPE="BUTTON" value="Se deconnecter" ONCLICK="window.location.href='includes/logout.php'">
 <?php else : ?>
     <p>
         <span class="error">Vous n’avez pas les autorisations nécessaires pour accéder à cette page.</span> Please <a href="index.php">login</a>.
